@@ -17,7 +17,7 @@ body{
     border-radius: 20px;
     /* width:50%; */
     margin: auto;
-    width:90%;
+    /* width:90%; */
 
     font-weight: 900;
     
@@ -281,7 +281,7 @@ input{
 
     gap:40px;
 
-    margin-left:140px;
+    margin-left:100px;
     
 
 
@@ -454,4 +454,101 @@ input{
      cursor: pointer;
       background-color:rgba(255, 0, 0, 0.405);
     
+}
+
+
+
+
+/* writing the code for the search bar */
+
+.ss{
+    
+    margin-top:22px;
+    display: flex;
+
+    
+    ;
+    margin-left:20px;
+    border-radius: 20px;
+    ;
+    
+
+
+}
+
+
+.imgg{
+    height:29px;
+    width:30px;
+   
+    border:1px solid black;
+    display:inline-block;
+    /* background-image: url("images/image\ copy\ 18.png");; */
+    background-color: antiquewhite;
+    cursor: pointer;
+
+
+
+}
+
+input{
+    height:30px;
+
+    display: inline-block;
+    border:1px solid black
+    ;
+    background-color: beige;
+    
+    
+    
+
+
+}
+.nn3{
+display: inline-block;
+margin-left:30px;
+font-size: 30px;
+height:25px;
+
+
+
+}
+
+
+select{
+    font-size: 22px;
+    margin-top: 23px;
+       background-color: beige;
+    border-radius: 30px;
+}
+.m1{
+    display: flex;
+    text-align: center;
+    margin:auto;
+    justify-content: center;
+    background-color: rgba(42, 151, 165, 0.599);
+    width:900px;
+    height:70px;
+    margin-top:30px;
+    border:1px solid black;
+    
+    border-radius: 40px;
+    ;
+    
+
+}
+.nn1{
+    font-size: 30px;
+    margin-top: -11px;
+    margin-left:40px;
+    margin-right: 10px;
+    color:rgb(255, 243, 11);
+    text-shadow: 1px 1px white;
+
+
+}
+.m1:hover{
+
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 255, 0.481);
 }
